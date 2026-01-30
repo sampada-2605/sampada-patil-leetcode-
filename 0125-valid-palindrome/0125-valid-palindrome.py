@@ -3,7 +3,7 @@ class Solution:
         new=""
         for ch in s:
             if ch.isalnum():
-                new+=ch.lower()
+                new += ch.lower()
         return new == new[::-1]
 
         
